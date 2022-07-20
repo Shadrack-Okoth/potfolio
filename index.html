@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shadrack</title>
+    <link rel="icon" href="favicon.ico?v=2">
+    <link rel="stylesheet" href="B.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+          integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+          <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>  
+</head>
+<body>
+    
+    
+    <!--End of header-->
+    <!--Body section-->
+     <section class="header">
+           <nav>
+                <a href="#"><img src="jk.png" height="50px" width="50px"></a>
+                <div class="left" id="left" >
+                    <i class='fa fa-times' onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#">Work</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>   
+               </div>
+               <i class='fa fa-bars' onclick="showMenu()"></i>
+            </nav>
+            <div class="home">
+                <h1>Welcome to my potfolio,</h1>
+                <h2>I'm  <span class="auto-type"></span></h2>
+                <a href="" class="btn">Read More</a>
+            </div>
+           
+                  
+    </section>
+    <!--End of section 1-->
+    <!--Home section-->
+   
+       
+     
+    <section>
+        <table>
+            <tr>
+                <th>Why Choose Us?</th>
+                <th>
+                    Quick Access
+                </th>
+            </tr>
+            <tr>
+                <td>We are readily available and your project is submitted on time <br>
+                Our charges are at a friendly cost<br>
+                Our support team is always online and ready for any help</td>
+                <td>
+                    <div class="b">
+                    <ul class="a">
+                         <li><a href="index.html">Home</a></li>
+                         <li><a href="#">Work</a></li>
+                         <li><a href="#">About</a></li>
+                         <li><a href="#">Services</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                </td>
+            </tr>
+        </table>
+    </section>
+   
+    <footer>
+        <p>  &copy; Brax.KE All Rights Reserved</p>
+        <p>Designed by Shadrack Okoth</p>
+     </footer>    
+            
+ 
+    <!--End of section2-->
+    <!--Last section-->
+   
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        var typed= new Typed(".auto-type",{
+            strings : ["Shadrack Okoth,","Front-End Webdesigner," , "Network and Internet administrator,","CCTV and Graphic Designer."],
+            typeSpeed:150,
+            backSpeed:150,
+            loop:true
+        })
+     var left = document.getElementById("left");
+     function showMenu(){
+        left.style.right="0"
+     }
+     function hideMenu(){
+        left.style.right="-200px"
+     }
+     
+
+    </script>
+</body>
+</html>
+
